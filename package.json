@@ -1,0 +1,25 @@
+{
+  "name": "multi-add-data",
+  "version": "1.0.0",
+  "description": "Multiple user add data into a database",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon src/app.js --exec babel-node",
+    "start": "node src/app.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NODE",
+    "API",
+    "Mongodb",
+    "ORM"
+  ],
+  "engines": {
+    "node": "16.14.2",
+    "npm": "8.5.0",
+    "vscode": "1.66.0"
+  },
+  "author": "Kwis Lawrence Francis",
+  "license": "ISC",
+  "type": "module"
+}
