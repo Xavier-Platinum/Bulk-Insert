@@ -1,0 +1,30 @@
+[
+    {
+        "name": "test1",
+        "email": "test1@test.com",
+        "phone": 0,
+        "gender": "f",
+        "address": "jos"
+    },
+    {
+        "name": "test1",
+        "email": "test1@test.com",
+        "phone": 0,
+        "gender": "f",
+        "address": "jos"
+    },
+    {
+        "name": "test2",
+        "email": "test2@test.com",
+        "phone": 0,
+        "gender": "f",
+        "address": "jos"
+    },
+    {
+        "name": "test3",
+        "email": "test3@test.com",
+        "phone": 0,
+        "gender": "f",
+        "address": "jos"
+    }
+]
