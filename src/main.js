@@ -1,9 +1,10 @@
 import express from "express";
-import { cors } from "./middleware/cors";
+import { cors } from "./middleware/cors.js";
 import morgan from "morgan"
 import cookieParser from "cookie-parser";
-import { startServer } from "./config/db";
+import { startServer } from "./config/db.js";
 import MongoStore from "connect-mongo";
+import session from "express-session";
 
 // Routes
 
@@ -25,7 +26,7 @@ app.use(
             maxAge: 1209600000,
         },
         store: MongoStore.create({
-            mongoUrl: `${process.env.DB}`,
+            mongoUrl: "mongodb+srv://Vircom_v1:Vircom_2021@vircom-v1.xzwnx.mongodb.net/Vircom_v1?retryWrites=true&w=majority",
             // autoReconnect: true,
         }),
     }),

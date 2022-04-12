@@ -1,4 +1,4 @@
-import { Data } from "../models/Data.model";
+import { Data } from "../models/Data.model.js";
 
 export const insertData = async(req, res) => {
     let bulkData = [];

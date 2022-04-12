@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export const startServer = async(app) => {
-    mongoose.connect(`${process.env.DB}`, {
+    mongoose.connect("mongodb+srv://Vircom_v1:Vircom_2021@vircom-v1.xzwnx.mongodb.net/Vircom_v1?retryWrites=true&w=majority", {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
